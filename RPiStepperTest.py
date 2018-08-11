@@ -1,3 +1,5 @@
+# Simple Test for RPi SBC Stepper Hat
+
 import PiMotor
 import time
 
@@ -9,4 +11,4 @@ while True:
     time.sleep(2)
     m1.backward(0.1,10)
     time.sleep(2)
-# Test new RPi SBC Hat
+
